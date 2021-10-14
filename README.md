@@ -21,7 +21,7 @@ Verrà automaticamente fatta la build del `master`.
 
 Da browser vai al link indicato da shell:
 
-http://<hostname>/?token=<token> 
+http://`hostname`/?token=`token` 
 
 For speed and friendliness to GitHub, be sure to set `GITHUB_OAUTH_KEY` and `GITHUB_OAUTH_SECRET`:
 
