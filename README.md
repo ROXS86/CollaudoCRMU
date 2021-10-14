@@ -17,7 +17,10 @@ docker pull jupyter/scipy-notebook
 docker run -p 8888:8888 jupyter/scipy-notebook
 ```
 
-It automatically gets built with each push to `master`, so you'll always be able to get the freshest copy.
+Verrà automaticamente fatta la build del master.
+
+Da browser vai al link indicato da shell: 
+http://<hostname>/?token=<token> 
 
 For speed and friendliness to GitHub, be sure to set `GITHUB_OAUTH_KEY` and `GITHUB_OAUTH_SECRET`:
 
