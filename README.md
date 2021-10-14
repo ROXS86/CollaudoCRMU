@@ -23,12 +23,17 @@ Da browser vai al link indicato da shell:
 
 http://`hostname`/?token=`token` 
 
-For speed and friendliness to GitHub, be sure to set `GITHUB_OAUTH_KEY` and `GITHUB_OAUTH_SECRET`:
+Per effettuare un resume del container:
 
 ```shell
-docker run -p 8080:8080 -e 'GITHUB_OAUTH_KEY=YOURKEY' \
-                          -e 'GITHUB_OAUTH_SECRET=YOURSECRET' \
-                          jupyter/nbviewer
+docker ps -a
+
+CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS                     PORTS     NAMES
+cb03ec65dc86   jupyter/scipy-notebook   "tini -g -- start-no…"   40 minutes ago   Exited (0) 7 minutes ago             beautiful_bardeen
 ```
 
-Or to use your GitHub personal access token, you can just set `GITHUB_API_TOKEN`.
+```shell
+docker start -a cb03ec65dc86
+```
+
+
