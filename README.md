@@ -3,6 +3,8 @@
 Tool di verifica consistenza dati relativo alle entità: pratiche, articoli pratiche, documenti, contratti e asset sul CRM-U (Dynamics).
 
 ## Librerie Python richieste
+Al primo "run" da jupyter verificare se le seguenti librerie sono disponibili, in alternativa eseguire i seguenti comandi. 
+
 ```shell
 pip install json-excel-converter
 pip install xlsxwriter
