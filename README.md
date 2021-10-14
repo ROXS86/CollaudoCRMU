@@ -1,4 +1,4 @@
-# Toll di Collaudo CRM-U
+# Tool di Collaudo CRM-U
 
 Tool di verifica consistenza dati relativo alle entità: pratiche, articoli pratiche, documenti, contratti e asset sul CRM-U (Dynamics).
 
