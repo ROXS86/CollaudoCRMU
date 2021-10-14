@@ -3,8 +3,10 @@
 Tool di verifica consistenza dati relativo alle entità: pratiche, articoli pratiche, documenti, contratti e asset sul CRM-U (Dynamics).
 
 ## Librerie Python richieste
+```shell
 pip install json-excel-converter
 pip install xlsxwriter
+```
 
 ## Avvio rapido con Docker
 
